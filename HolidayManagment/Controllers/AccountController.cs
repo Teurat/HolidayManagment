@@ -76,7 +76,7 @@ namespace HolidayManagment.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    ModelState.AddModelError(string.Empty, "Your username or password is incorrect");
                 }
             }
             return View(model);
