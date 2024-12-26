@@ -1,0 +1,41 @@
+﻿@model IEnumerable<HolidayManagment.Models.Employee>
+
+<h2>Employees</h2>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-primary">Create New Employee</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Employed In Company</th>
+            <th>Experience In Company</th>
+            <th>Annual Leave Days</th>
+            <th>Leave Days Left</th>
+            <th>Is Active in Company</th>
+            <th>Actions</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.FirstName @employee.LastName</td>
+                <td>@employee.Company?.Name</td>
+                <td>@employee.EmployedInCompany.ToShortDateString()</td>
+                <td>@employee.ExperienceInCompany</td>
+                <td>@employee.AnnualLeaveDays</td>
+                <td>@employee.LeaveDaysLeft</td>
+                <td>@(employee.IsActive ? "Yes" : "No")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@employee.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@employee.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

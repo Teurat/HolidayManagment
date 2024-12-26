@@ -1,0 +1,34 @@
+﻿@model IEnumerable<HolidayManagment.Models.Company>
+
+<h2>Companies</h2>
+<a href="@Url.Action("Create", "Company")" class="btn btn-primary">Create New Company</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>NrEmployees</th>
+            <th>FoundationYear</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var company in Model)
+        {
+            <tr>
+                <td>@company.Name</td>
+                <td>@company.NrEmployees</td>
+                <td>@company.FoundationYear</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@company.Id" class="btn btn-warning">Edit</a>
+
+                    <!-- Delete form with POST method -->
+                    <form action="@Url.Action("Delete", "Company", new { id = company.Id })" method="post" style="display:inline;">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

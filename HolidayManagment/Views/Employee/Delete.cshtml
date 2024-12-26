@@ -1,0 +1,20 @@
+﻿@model HolidayManagment.Models.Employee
+
+<h2>Delete Employee</h2>
+
+<div>
+    <h3>Are you sure you want to delete the employee <strong>@Model.FullName</strong>?</h3>
+
+    <p>First Name: @Model.FirstName</p>
+    <p>Last Name: @Model.LastName</p>
+    <p>Company: @Model.Company?.Name</p>
+    <p>First Employment: @Model.FirstEmployment.ToString("yyyy-MM-dd")</p>
+    <p>Annual Leave Days: @Model.AnnualLeaveDays</p>
+    <p>Annual Leave Days: @Model.LeaveDaysLeft</p>
+    <p>Employed in Company: @Model.EmployedInCompany.ToString("yyyy-MM-dd")</p>
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,159 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+nav {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 16px;
+    }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+    nav form {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    nav .btn {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    nav .btn-danger {
+        background-color: #dc3545;
+    }
+
+    nav .btn:hover {
+        background-color: #218838;
+    }
+
+    nav .btn-danger:hover {
+        background-color: #c82333;
+    }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+.text-danger {
+    color: #dc3545;
+    font-size: 14px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-footer {
+    padding: 15px;
+    text-align: right;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+        nav a {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+}

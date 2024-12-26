@@ -1,0 +1,68 @@
+﻿@model Leave
+
+<h2>Register Leave</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.EmployeeId)
+        @Html.DropDownListFor(m => m.EmployeeId, (SelectList)ViewBag.Employees, "Select Employee", new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.LeaveTypeId)
+        @Html.DropDownListFor(m => m.LeaveTypeId, (SelectList)ViewBag.LeaveTypes, "Select Leave Type", new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.DateFrom)
+        @Html.TextBoxFor(m => m.DateFrom, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date", id = "dateFrom" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.DateTo)
+        @Html.TextBoxFor(m => m.DateTo, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date", id = "dateTo" })
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LeaveDays" class="control-label"></label>
+        <input asp-for="LeaveDays" class="form-control" type="number" id="leaveDays" readonly />
+        <span asp-validation-for="LeaveDays" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.IsApproved)
+        @Html.CheckBoxFor(m => m.IsApproved)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+}
+
+@section Scripts {
+    <script>
+        function calculateLeaveDays() {
+            var dateFrom = document.getElementById("dateFrom").value;
+            var dateTo = document.getElementById("dateTo").value;
+
+            if (dateFrom && dateTo) {
+                var startDate = new Date(dateFrom);
+                var endDate = new Date(dateTo);
+
+                if (startDate > endDate) {
+                    alert("End date must be greater than or equal to start date.");
+                    return;
+                }
+
+                var timeDifference = endDate - startDate;
+
+                var leaveDays = timeDifference / (1000 * 3600 * 24) + 1; 
+
+                document.getElementById("leaveDays").value = leaveDays;
+            }
+        }
+
+        document.getElementById("dateFrom").addEventListener("change", calculateLeaveDays);
+        document.getElementById("dateTo").addEventListener("change", calculateLeaveDays);
+    </script>
+}

@@ -1,0 +1,18 @@
+﻿@model HolidayManagment.Models.LeaveType
+
+@{
+    ViewData["Title"] = "Delete Leave Type";
+}
+
+<h2>Delete Leave Type</h2>
+
+<div>
+    <h3>Are you sure you want to delete this leave type?</h3>
+    <div>Name: @Model.Name</div>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

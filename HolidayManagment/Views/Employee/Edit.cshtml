@@ -1,0 +1,96 @@
+﻿@model HolidayManagment.Models.Employee
+
+@{
+    ViewData["Title"] = "Edit Employee";
+}
+
+<h1>Edit Employee</h1>
+
+<form method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="FirstName" class="control-label"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LastName" class="control-label"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FirstEmployment" class="control-label"></label>
+        <input asp-for="FirstEmployment" class="form-control" type="date" />
+        <span asp-validation-for="FirstEmployment" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EmployedInCompany" class="control-label"></label>
+        <input asp-for="EmployedInCompany" type="date" class="form-control" id="employedInCompany" />
+        <span asp-validation-for="EmployedInCompany" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AnnualLeaveDays" class="control-label"></label>
+        <input asp-for="AnnualLeaveDays" class="form-control" type="number" />
+        <span asp-validation-for="AnnualLeaveDays" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LeaveDaysLeft" class="control-label"></label>
+        <input asp-for="LeaveDaysLeft" class="form-control" type="number" />
+        <span asp-validation-for="LeaveDaysLeft" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CompanyId" class="control-label"></label>
+        <select asp-for="CompanyId" class="form-control" asp-items="@(new SelectList(ViewBag.Companies, "Id", "Name", Model.CompanyId))">
+            <option value="">Select Company</option>
+        </select>
+        <span asp-validation-for="CompanyId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ExperienceInCompany" class="control-label"></label>
+        <input asp-for="ExperienceInCompany" class="form-control" type="number" id="experienceInCompany" readonly />
+        <span asp-validation-for="ExperienceInCompany" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.IsActive)
+        @Html.CheckBoxFor(m => m.IsActive)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+<a href="@Url.Action("Index", "Employee")">Back to List</a>
+
+<script type="text/javascript">
+    function calculateExperience() {
+        var employedDate = document.getElementById("employedInCompany").value;
+        if (employedDate) {
+            var employedDateObj = new Date(employedDate);
+            var currentDate = new Date();
+            var experienceYears = currentDate.getFullYear() - employedDateObj.getFullYear();
+            var monthDifference = currentDate.getMonth() - employedDateObj.getMonth();
+
+            if (monthDifference < 0 || (monthDifference === 0 && currentDate.getDate() < employedDateObj.getDate())) {
+                experienceYears--;
+            }
+
+            document.getElementById("experienceInCompany").value = experienceYears;
+        } else {
+            document.getElementById("experienceInCompany").value = "";
+        }
+    }
+
+    document.getElementById("employedInCompany").addEventListener("change", calculateExperience);
+
+    window.onload = function () {
+        calculateExperience();
+    }
+</script>

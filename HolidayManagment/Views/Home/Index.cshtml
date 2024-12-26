@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <h2>@ViewBag.Message</h2>
+    <p>
+        Welcome to the Leave Management System. Here you can manage companies, employees, and their leave records.
+    </p>
+    <div>
+        <h3>Navigation:</h3>
+        <ul>
+            <li><a href="@Url.Action("Index", "Company")">Manage Companies</a></li>
+            <li><a href="@Url.Action("Index", "LeaveType")">Manage Leave Types</a></li>
+            <li><a href="@Url.Action("Index", "Employee")">Manage Employees</a></li>
+            <li><a href="@Url.Action("Index", "Leave")">Manage Leaves</a></li>
+        </ul>
+    </div>
+</div>

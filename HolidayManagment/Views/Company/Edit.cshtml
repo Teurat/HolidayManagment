@@ -1,0 +1,33 @@
+﻿@model Company
+
+@{
+    ViewData["Title"] = "Edit Company";
+}
+
+<h1>Edit Company</h1>
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NrEmployees" class="control-label"></label>
+        <input asp-for="NrEmployees" class="form-control" />
+        <span asp-validation-for="NrEmployees" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FoundationYear" class="control-label"></label>
+        <input asp-for="FoundationYear" class="form-control" />
+        <span asp-validation-for="FoundationYear" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+</form>
+
+<a href="@Url.Action("Index", "Company")">Back to List</a>

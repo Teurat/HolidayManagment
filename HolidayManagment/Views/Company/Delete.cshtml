@@ -1,0 +1,28 @@
+﻿@model HolidayManagment.Models.Company
+
+@{
+    ViewData["Title"] = "Delete Company";
+}
+
+<h2>Delete Company</h2>
+
+<h3>Are you sure you want to delete this company?</h3>
+
+<div>
+    <h4>Company: @Model.Name</h4>
+
+    <!-- Show error messages if any -->
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <form asp-action="Delete" method="post">
+        @Html.AntiForgeryToken()  <!-- Include anti-forgery token for security -->
+        <input type="hidden" asp-for="Id" />  <!-- Hidden field for company Id -->
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

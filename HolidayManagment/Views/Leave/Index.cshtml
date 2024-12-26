@@ -1,0 +1,42 @@
+﻿@model IEnumerable<HolidayManagment.Models.Leave>
+
+@{
+    ViewData["Title"] = "Leaves";
+}
+
+<h2>Leaves</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Leave</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Employee</th>
+            <th>Leave Type</th>
+            <th>Date From</th>
+            <th>Date To</th>
+            <th>Approved</th>
+            <th>Leave Days</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var leave in Model)
+        {
+            <tr>
+                <td>@leave.Employee.FullName</td>
+                <td>@leave.LeaveType.Name</td>
+                <td>@leave.DateFrom.ToShortDateString()</td>
+                <td>@leave.DateTo.ToShortDateString()</td>
+                <td>@(leave.IsApproved ? "Yes" : "No")</td>
+                <td>@leave.LeaveDays</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@leave.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@leave.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
