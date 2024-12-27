@@ -29,7 +29,9 @@
                         <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "Employee")"> Employees</a></li>
                         <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "LeaveType")">LeaveTypes</a></li>
                         <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "Leave")">Leaves</a></li>
-                        <li>
+                        </ul>
+                </div>
+                <div class="nav-right">
                             @if (User.Identity.IsAuthenticated)
                             {
                                 <form asp-action="Logout" asp-controller="Account" method="post" style="display:inline;">
@@ -43,15 +45,13 @@
                                 <span> | </span>
                                 <a href="@Url.Action("Register", "Account")" class="btn btn-secondary">Register</a>
                             }
-                        </li>
-                    </ul>
-                </div>
+                    </div>
             </div>
         </nav>
         <div class="container">
             @if (User.Identity.IsAuthenticated)
             {
-                <p>Welcome, @User.Identity.Name</p> 
+                <p>Welcome, @User.Identity.Name</p>
             }
             else
             {

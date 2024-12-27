@@ -33,7 +33,7 @@ public class EmployeeController : Controller
     {
         if (ModelState.IsValid)
         {
-            if (employee.LeaveDaysLeft == null)
+            /*if (employee.LeaveDaysLeft == null)
             {
                 employee.LeaveDaysLeft = 0; 
             }
@@ -41,7 +41,7 @@ public class EmployeeController : Controller
             if (employee.AnnualLeaveDays == 0)  
             {
                 employee.AnnualLeaveDays = 0;  
-            }
+            }*/
 
             _context.Add(employee);
             await _context.SaveChangesAsync();
@@ -83,10 +83,10 @@ public class EmployeeController : Controller
         }
         if (ModelState.IsValid)
         {
-            if (employee.AnnualLeaveDays == 0)
+            /*if (employee.AnnualLeaveDays == 0)
             {
                 employee.AnnualLeaveDays = 0;  
-            }
+            }*/
 
             try
             {

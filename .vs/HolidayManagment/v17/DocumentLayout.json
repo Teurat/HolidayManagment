@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\leave\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\views\\leave\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\leavetype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\views\\leavetype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\leave\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\views\\leave\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -13,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|c:\\users\\teurat\\source\\repos\\holidaymanagment\\holidaymanagment\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52F1E576-8D87-40C1-B7C4-D6EBB2C32912}|HolidayManagment\\HolidayManagment.csproj|solutionrelative:holidaymanagment\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +86,217 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "HolidayManagment\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\LeaveType\\Index.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\LeaveType\\Index.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\LeaveType\\Index.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\LeaveType\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T13:06:45.09Z",
+              "WhenOpened": "2024-12-27T10:03:41.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Leave\\Index.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Leave\\Index.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Leave\\Index.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\Leave\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T10:03:32.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Company\\Index.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Company\\Index.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Company\\Index.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\Company\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T09:20:26.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T09:08:00.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "HolidayManagment\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "HolidayManagment\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAwwI4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-27T08:55:34.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T09:11:29.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T09:08:03.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LeaveController.cs",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Controllers\\LeaveController.cs",
+              "RelativeDocumentMoniker": "HolidayManagment\\Controllers\\LeaveController.cs",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Controllers\\LeaveController.cs",
+              "RelativeToolTip": "HolidayManagment\\Controllers\\LeaveController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T08:18:51.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "HolidayManagment\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Models\\Company.cs",
+              "RelativeToolTip": "HolidayManagment\\Models\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T08:17:33.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "HolidayManagment\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Models\\Employee.cs",
+              "RelativeToolTip": "HolidayManagment\\Models\\Employee.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T08:17:26.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Leave\\Create.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Leave\\Create.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Leave\\Create.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\Leave\\Create.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T08:11:31.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T14:39:59.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T14:38:08.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T13:24:10.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T13:23:12.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "HolidayManagment\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "HolidayManagment\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T13:06:45.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "HolidayManagment\\Controllers\\HomeController.cs",
@@ -51,25 +304,23 @@
               "RelativeToolTip": "HolidayManagment\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T12:51:51.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T12:51:51.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "HolidayManagment\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Controllers\\AccountController.cs",
               "RelativeToolTip": "HolidayManagment\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAiwE4AAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T12:38:03.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T12:38:03.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "CompanyController.cs",
               "DocumentMoniker": "C:\\Users\\teurat\\source\\repos\\HolidayManagment\\HolidayManagment\\Controllers\\CompanyController.cs",
               "RelativeDocumentMoniker": "HolidayManagment\\Controllers\\CompanyController.cs",
@@ -77,7 +328,8 @@
               "RelativeToolTip": "HolidayManagment\\Controllers\\CompanyController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T09:24:36.143Z"
+              "WhenOpened": "2024-12-13T09:24:36.143Z",
+              "EditorCaption": ""
             }
           ]
         }

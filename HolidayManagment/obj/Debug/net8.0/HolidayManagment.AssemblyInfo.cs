@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HolidayManagment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2be69f6ab0fcfbc6c4c43337ab8e1dad2f0d455e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09b0235b2aed1c4ad470e6a7ed200e6da6e4a4bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("HolidayManagment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HolidayManagment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
